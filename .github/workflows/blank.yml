@@ -16,6 +16,5 @@ jobs:
       - name: Build Step
         run: echo "Hello, ${{ vars.MY_NAME }}"
 
-    steps:
       - name: Printing Secrets
         run: echo "Hello, ${{ Secrets.DOCKER_PASSWORD }}"
